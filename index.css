@@ -9,32 +9,34 @@ body{
 }
 
 header {
-    display:flex; 
-    background-color: lightskyblue; 
-    justify-content: space-between; 
-    padding: 20px;
-    min-width: 320px; 
+    display: flex;
+    flex-direction: column;
+    background-color: lightskyblue;
+    justify-content: center;
+    padding: 10px;
     align-items: center;
 }
-            
-header > img{
-    width: 200px; 
+
+header > img {
+    width: 150px;
     border-radius: 50%;
+    margin-bottom: 10px;
 }
 
-header h1{
-    color:darkblue;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+header h1 {
+    color: darkblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    margin: 0 30px;
-    flex: 1;
-    text-align: left;
+    font-size: 30px;
+    margin: 10px 0;
+    text-align: center;
 }
 
-header #redes{
-    display:flex;
+header #redes {
+    display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 10px;
+    margin-top: 10px;
 }
 
 nav {
@@ -130,32 +132,78 @@ footer #redes{
 
 @media screen and (max-width: 800px) {
 
-    header{
-        background-color: lightskyblue;
-        padding: 20px;
+    header {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    header > img {
+        width: 150px;
+        margin-bottom: 10px;
+    }
+
+    header h1 {
+        font-size: 16px;
+        text-align: center;
+        margin: 10px 0;
     }
 
     header #redes{
         display:none;
     }
 
-    footer{
-        display: flex;
+    nav ul {
         flex-direction: column;
-        gap: 20px;
+        align-items: center;
     }
 
-    footer #redes{
+    nav ul li a {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    main {
+        flex-direction: column;
+        padding: 100px 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main img {
+        width: 20%;
+        height: auto;
+    }
+
+    main #textual {
+        margin-left: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    main p {
+        font-size: 14px;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 10px;
+        font-size: 12px;
+    }
+
+    footer #redes {
         display:flex;
-        flex-direction:row;
-        gap: 20px;
+        flex-direction: row;
+        gap: 10px;
     }
 
-    main{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
+    footer #redes img{
+        width: 35px;
+        height: auto;
+        margin-bottom: 10px;
     }
+
 }
+
+
 
 
