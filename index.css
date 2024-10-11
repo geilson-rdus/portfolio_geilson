@@ -120,11 +120,13 @@ main p{
 footer{
     display: flex;
     align-items: center;
-    height: 5vh;
+    height: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin: 0;
-    padding: 5;
     color: darkblue;
+}
+
+footer h4{
+    margin-left: 10px;
 }
 
 footer #redes{

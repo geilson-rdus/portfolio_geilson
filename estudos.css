@@ -178,6 +178,10 @@ footer #redes{
     display: none;
 }
 
+footer h4{
+    margin-left: 10px;
+}
+
 @media screen and (max-width: 800px) {
 
     header {
@@ -261,6 +265,8 @@ footer #redes{
         height: auto;
     }
 
+    
+
     footer {
         flex-direction: column;
         gap: 10px;
@@ -278,5 +284,7 @@ footer #redes{
         height: auto;
         margin-bottom: 10px;
     }
+
+    
 
 }
