@@ -128,7 +128,7 @@ main ul li{
 }
 
 main img:last-child{
-    width:50px;
+    width:20%;
 }
 
 #textos{
@@ -194,7 +194,7 @@ footer h4{
     }
 
     header > img {
-        width: 150px;
+        width: 20%;
         margin-bottom: 10px;
     }
 
@@ -275,8 +275,6 @@ footer h4{
         height: auto;
     }
 
-    
-
     footer {
         flex-direction: column;
         gap: 10px;
@@ -294,7 +292,5 @@ footer h4{
         height: auto;
         margin-bottom: 10px;
     }
-
-    
 
 }
