@@ -127,6 +127,10 @@ main ul li{
     align-items: center;
 }
 
+main img:last-child{
+    width:50px;
+}
+
 #textos{
     display:flex;
     flex-direction: row;
@@ -170,7 +174,7 @@ footer{
     display: flex;
     align-items: center;
     height: 30px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: darkblue;
 }
 
@@ -215,10 +219,15 @@ footer h4{
     }
 
     main {
+        display:flex;
         flex-direction: column;
         padding: 100px 20px;
         align-items: center;
         justify-content: center;
+    }
+
+    main ul{
+        align-items: center;
     }
 
     main ul li{
